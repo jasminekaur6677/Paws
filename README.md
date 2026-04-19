@@ -1,10 +1,11 @@
 # Paws App
 
-This is a **SwiftUI** app designed to help users organize their grocery shopping efficiently. The Grocery List App allows users to create, manage, and track their grocery items in a convenient way. It offers features that enhance the shopping experience by simplifying the process of adding and checking off items as users shop.
+The Paws App is a swiftUI app that allows users to create, edit, and store information about their pets, including photos and names, all while providing an intuitive user interface. Users can easily add new pet items, edit existing ones, and view them in a grid layout, making the app both fun and functional.
+
 **APP PREVIEW :**
 
 <div align="center">
-  <img src="./Readme_Assets/Paws.gif" width="30%" alt="HiyaAI App Preview">
+  <img src="./Readme_Assets/Paws_demo.gif" width="30%" alt="HiyaAI App Preview">
 </div>
 
 ## 🛠 Technical Stack & Architecture
@@ -13,28 +14,30 @@ This is a **SwiftUI** app designed to help users organize their grocery shopping
 
 • Language : Swift 6
 
-• Framework: SwiftData and TipKit
+• Framework: SwiftData and Photo Picker
 
  
 ## 🚀 Features
 
-• Item Management: Users can add, remove, and mark items as completed
+• Photo Storage: Users can save photos of their pets, integrating with SwiftData to ensure the images are stored properly
 
-• Notification for Empty Lists: Users receive context-sensitive feedback when their grocery list is empty
+• Photo Picker: Incorporates SwiftUI's native photo picker for users to easily select and upload pet images
 
-• Intuitive UI: An organized layout that facilitates easy navigation and interaction
+• Data Display: Fetches pet data from a database and displays it using a grid layout, providing a visually appealing way to browse pets
 
-• TipKit framework is used to guide users about app's functionality
+• Navigation Links: Users can navigate between different views in the app, making it easy to access various functionalities
 
-• SwiftData is used for data persistence
+• Editing and Deleting: A unique editing view allows users to modify pet details, and there’s functionality to delete pet items when no longer needed
 
 ## 💡 What I Learned
 
 • Designing using SwiftUI
 
-• TipKit Framework - Implemented to help users discover new functionalities within the app
-
 • Data Persistence using SwiftData
+
+• Implementation of Photo Picker
+
+• Navigation within an app using SwiftUI’s capabilities
 
 
 
